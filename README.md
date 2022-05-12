@@ -1,4 +1,4 @@
-# CodeAssessment
+# Coderbyte
 
 **
 Problem 1**
