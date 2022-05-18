@@ -5,8 +5,9 @@
 //Solutions that use the least time + space
 
 
-// Big O can be objective with determining which solution is more or less optimizing 
+// Big O can be objective with determining which solution is more or less optimizing, looking at how things scale
 // Builds resillent programs. 
+// Big O considers the size of the input 
 
 
 
@@ -22,3 +23,6 @@ const calculateAverage = (numbers) => {
 };
 
 console.log(calculateAverage([2, 3, 4, 1])); //prints calculateAverage, in this case it is 2.5
+
+
+
