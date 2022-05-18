@@ -117,4 +117,79 @@ const doubler = (items) => {
 doubler(['a', 'b', 'c']); // ['a', 'a', 'b', 'b', 'c', 'c']
 
 
+     
+// Resursive Example 
 
+const zoom = (n) => { 
+  if (n === 0) {
+    console.log('liftoff!') ;
+    return;
+  }
+  
+  console.log(n);
+  zoom(n - 1);
+}; 
+     
+     
+zoom(10);  //time: O(n)
+           //space: O(n)
+// 10
+// 9 
+// 8
+// 7
+// 6
+// 5
+// 4
+// 3
+// 2
+// 1 
+// liftoff! 
+
+     
+
+const zap = (n) => {
+  if (n < 1) {
+    console.log('blastoff!');
+    return;
+  }
+  
+  console.log(n);
+  zap(n - 2); 
+
+};
+     
+zap(10); 
+     
+     
+// time: O(n)
+// space: O(n)
+     
+
+const unique = (array) => {
+  const newArray = [];
+  
+  for (let i = 0; i < array.length; i++) {
+    const ele = array[i];
+    if (!newArray.includes(ele)) {          // This part is the bottleneck
+      newArray.push(ele);
+    }                                       //time: n^2
+  }
+  
+  return newArray;
+}
+
+unique(['cat', 'dog', 'rat', 'dog', 'cat', 'bird']); 
+// ['cat', 'dog', rat', bird']
+
+
+const unique = (array) => {
+  const onlyUniques = new Set ();   // items in set will be unique 
+  
+  for (let i = 0; i < array.length; i++) {
+    const ele = array[i];
+    onlyUniques.add(ele); 
+  }
+  
+  return Array.from(onlyUniques); //makes an array from a set 
+};
+     
