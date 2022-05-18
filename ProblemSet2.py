@@ -1,5 +1,5 @@
-**
-Problem 1**
+
+//Problem 1
 
 Have the function BracketCombinations(num) read num which will be an integer greater than or equal to zero, and return the number of valid combinations that can be formed with num pairs of parentheses
 
