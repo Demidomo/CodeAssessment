@@ -10,4 +10,4 @@ Code Assessment Topics:
 
 
 
-Coderbyte course: https://www.youtube.com/c/CoderbyteDevelopers/playlists
+Resources mastersheet:https://docs.google.com/spreadsheets/d/1rkyPHSY7JR-6g4Zr6ysrPhCjrfcr0cdYkoSWJMglXPo/edit#gid=0
