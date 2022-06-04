@@ -235,5 +235,52 @@ console.log(n);
      
      
 
+// Linear O(n) 
+
+
+let foo = (array) => {
+  for (let i = 0; i < array.length; i++) {
+    console.log(array[i]);
+  }
+}; 
+     
+
+
+
+
+// Loglinear O(n*log(n))
+     
+     // linear behavior nested in log steps
+     // bigger than O(n), smaller than O(n^2) 
+
+const bar = (str) => {
+  console.log(str);
+  if (str.length <= 1) return; 
+  const midIdx = Math.floor(str.length / 2);
+  bar(str.slice(0, midIdx));
+};
+     
+bar("abcdefghijklmnopqrstuvwxyz");
+
+
+     
+      const foo = (array) => {
+       let str = "";
+       for (let i = 0; i < array.length; i++) { 
+         str += array[i];
+       }
+       console.log(str); 
+       console.log("--------");
+       
+       if (array.length <= 1) return;
+       
+       const midIdx = Math.floor(array.length / 2);
+       const left = array.slice(0. midIdx);
+       const right = array.slice(midIdx);
+       foo(left);
+       foo(right); 
+              
+
+
 
 
