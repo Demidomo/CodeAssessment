@@ -330,7 +330,56 @@ let bar = (str) => {
         
 bar("coderbyte"); 
 
+               
+
+// Exponentials - O(c^n) 
+// c is the constant 
+// O(2^n) = 2 x 2 x 2 .....
+// O(3^n) = 3 x 3 x 3.....
+
+
+
+const foo = (n) => { 
+  if (n === 1) return; 
+  foo(n - 1);
+  foo(n - 1);
+};
         
+foo(4); 
         
-        
+
+const bar = (n) => {
+  if (n === 1) return;
+  bar(n - 1); 
+  bar(n - 1);
+  bar(n - 1);
+}; 
+
+foo(4) 
+
+
+// Factorial - O(n!) 
+
+
+const foo = (n) -> { 
+  if (n === 1) return; 
+  
+  for (let i = 0; i < n; i++) {
+    foo(n - 1)
+  }
+      };
+     
+ foo(4); 
+
+
+
+
+// Complexity Hierarchy 
+// Constant O(1)
+// Log O(log n)
+// Linear O(n) 
+// Loglinear O(n log n) 
+// Polynomial O(n ^2) 
+// Exponential O(2^n)
+// Factorial O(n!) 
 
