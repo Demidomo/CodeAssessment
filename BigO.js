@@ -282,5 +282,55 @@ bar("abcdefghijklmnopqrstuvwxyz");
               
 
 
+// Polynomial O(n^c)
+        
+        
+//O(n^2)       
+const foo = (array) => {
+  for (let i = 0; i < array.length; i++) {
+    for (let j = 0; j < array.length; j++) {
+      console.log(array[i] + "/" + array[j]);
+    }
+  }
+};
+        
+foo(["paella", "risotto", "pilaf"]); 
 
+
+
+
+//O(n^3)
+
+const bar = (n) => {
+  for (let q = 0; q < n; q++) {
+    for (let r = 0; r < n; r++) { 
+      for (let s = 0; s < n; s++) {
+        console.log(q, r, s); 
+      }
+    }
+  }
+};
+
+bar(2); 
+        
+        
+        
+// O(n^2) no loops, there's recursive quality 
+        
+        
+let bar = (str) => { 
+  if (str.length === 0) return; 
+  
+  
+ const firstChar = str[0];
+ const rest = str.slice(1);
+ console.log(firstChar);
+ bar(rest);
+};
+        
+bar("coderbyte"); 
+
+        
+        
+        
 
