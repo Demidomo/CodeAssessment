@@ -39,5 +39,67 @@ const factorial = (n) => {
 
 
 
+// Complex Recurision 
+
+// sum ([a,b,c,d...]) = a + sum([b,c,d...]) 
+// sum of array 
+
+const sum = (array) => {
+  if (array.length === 0) return 0; 
+  const rest = array.slice(1);   //shrink the array by 1
+  return array[0] + sum(rest); 
+  
+};
+
+console.log(sum([1, 5, 7, -2])); 
 
 
+// Time: O(n*n) = O(n^2) 
+// Space: O(n) 
+
+
+
+
+
+
+
+// instead of passing a copy 
+// maintain a reference
+
+
+const sum = (array) => { 
+ return _sum(array, 0); 
+  
+};
+
+
+const _sum = (array, idx) => {  //keep the top level signature the same, this is the recursive code 
+ if (idx === array.length) return 0; 
+ return array[idx] + _sum(array, idx +1); 
+
+
+}; 
+
+console.log(sum([1, 5, 7, -2])); 
+
+// Time: O(n) 
+// Space: O(n) 
+
+
+
+
+// display the processing time 
+
+const input = Array(9000).fill(1);
+
+const slowStart = Date.now();
+console.log(slowSum(input));
+const slowEnd = Date.now(); 
+console.log('n^2 finished in ${slowend - slowStart}ms');
+
+const fastStart = Date.now();
+console.log(fastSum(input));
+const fasEnd = Date.now();
+console.log('n finished in ${fastEnd - fastStart}ms'); 
+
+};
