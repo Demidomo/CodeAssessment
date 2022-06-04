@@ -193,3 +193,47 @@ const unique = (array) => {
   return Array.from(onlyUniques); //makes an array from a set 
 };
      
+
+
+
+
+
+
+
+
+
+
+
+// 7 common complexity classes 
+
+// Constant time O(1)
+
+
+
+
+const bar = (array) => {
+  return array [0] * array[array.length - 1]; 
+};
+     
+     
+bar([3, 5, 2, 4, 7]); // 21
+
+
+
+
+
+// Log O(log(n)) 
+const foo = (n) => { 
+  if (n <= 1) {
+    console.log("hooray");
+    return;
+  }
+  
+console.log(n);
+  foo(n / 2);
+};
+     
+     
+
+
+
