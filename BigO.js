@@ -433,3 +433,14 @@ const foo = (str1, str2) => {
 foo("swim", "run"); 
  
   
+
+
+
+// Analyzing stack space for recursion 
+
+
+const bar = (n) => { 
+  if (n === 1) return;
+  bar(n - 1);
+  bar(n - 1); 
+}; 
