@@ -383,3 +383,53 @@ const foo = (n) -> {
 // Exponential O(2^n)
 // Factorial O(n!) 
 
+
+// O(m + n) 
+
+const foo = (m, n) => {
+  for (let i = 0; i < m; i++) {
+    console.log("hi");
+  }
+  
+for (let j = 0; j < n; j++) {
+  console.log("bye");
+  } 
+}; 
+     
+foo(3, 2); 
+
+
+// printing out all combination of array 1 and array 2 
+const crossPairs = (array1, array2) => {
+  for (let i = 0; i < array1.length; i++) { 
+    for (let j = 0; j < array2.length; j++) {
+      console.log(array1[i], array2[j]); 
+    }
+  }
+};
+     
+let colors = ["yellow", "teal", "navy", "white"];
+let clothes = ["shirt", "jeans", "skirt"];
+crossPairs(colors, clothes); 
+
+
+
+
+
+// spelling out the longer string of the 2 
+const foo = (str1, str2) => { 
+  if (str1.length > str2.length) { 
+    for (let i = 0; i < str1.length; i++) { 
+      console.log(str1[i]); 
+    }
+  } else {
+    for (let j = 0; j < str2.lengthl j++) {
+      console.log(str2[j]);
+    }
+  }
+}; 
+     
+     
+foo("swim", "run"); 
+ 
+  
