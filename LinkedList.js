@@ -33,6 +33,18 @@ class LinkedList {
     }
     console.log(str); 
   
+  contains(target) {
+    let curr = this.head;
+    while (curr!== null) {
+      if (curr.val === target) {
+        return true;
+        {
+          curr = curr.next
+        }
+        
+        return false;
+      }
+
 }
 
 const list = new LInkedList()
@@ -44,3 +56,10 @@ console.log(list.head); // prints out the 'a' node
 list.print();
 // a -> b
 // abcd
+
+list.contains('a'); //true 
+list.contains('b'); // true
+list.contains('c');
+list.contains('d');
+list.contains('z');
+list.contains('f');
