@@ -22,6 +22,16 @@ class LinkedList {
     }
     curr.next = new Node(val); //add a new node to the end
       
+  }
+  
+  print() {
+    let str = ''; 
+    let curr = this.head;   // this head is the arrow 
+    while (curr !== null) { // as long as the arro wis not pointing to the last value
+      str += curr.val;      // the arrow pointing node will be added to the str 
+      curr = curr.next;     // move the arrow to the next node
+    }
+    console.log(str); 
   
 }
 
@@ -31,4 +41,6 @@ list.append('b');
 list.append('c');
 list.append('d'); 
 console.log(list.head); // prints out the 'a' node
+list.print();
 // a -> b
+// abcd
