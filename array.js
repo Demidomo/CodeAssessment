@@ -15,5 +15,10 @@ console.log(arr.length);
 
 var arr = [10, true, '2343', (1, 3, 4)];
 
-for (var i = 0; i < arr.length; i++) {
-  
+    arr[2]; // 2343
+
+
+
+var arr = [10, 'hello', true, [1,2,3]]; // to make an array
+
+console.log(arr[3][1]); //2 
