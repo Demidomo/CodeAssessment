@@ -23,20 +23,25 @@ var arr = [10, 'hello', true, [1,2,3]]; // to make an array
 
 console.log(arr[3][1]); //2 
 
+// join function converts an array into a string 
 console.log(arr.join('')); // 10hellotrue1,2,3
-console.log(arr.join(' ')); // 10 hello true 1,2,3
+console.log(arr.join(' ')); // 10 hello true 1,2,3 
 
 
 console.log(arr); // [ 10, 'hello', true, [ 1, 2, 3 ] ]
 
+// adds element
 arr.push(1000);
 console.log(arr); // [ 10, 'hello', true, [ 1, 2, 3 ], 1000 ]
 
+// removes last added element
 arr.pop();
 console.log(arr); // [ 10, 'hello', true, [ 1, 2, 3 ] ]
 
+// removes first element
 arr.shift(); 
 console.log(arr); // [ 'hello', true, [ 1, 2, 3 ] ]
 
+// reverses the order of the array 
 arr.reverse(); 
 console.log(arr); // [ [ 1, 2, 3 ], true, 'hello' ]
