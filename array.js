@@ -45,3 +45,8 @@ console.log(arr); // [ 'hello', true, [ 1, 2, 3 ] ]
 // reverses the order of the array 
 arr.reverse(); 
 console.log(arr); // [ [ 1, 2, 3 ], true, 'hello' ]
+
+// searches for an element in the array
+var arr = [1, 2, 3, 100]; 
+// arr.indexOf();  search for an element within an array
+console.log(arr.indexOf(2)); // 1 
