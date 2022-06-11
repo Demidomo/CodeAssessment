@@ -50,3 +50,19 @@ console.log(arr); // [ [ 1, 2, 3 ], true, 'hello' ]
 var arr = [1, 2, 3, 100]; 
 // arr.indexOf();  search for an element within an array
 console.log(arr.indexOf(2)); // 1 
+
+
+
+// using an array 
+
+
+const myStack = [];
+myStack.push('a');
+myStack.push('b');
+
+myStack.pop();
+console.log(myStack);
+
+myStack.push('c');
+myStack.push('d'); 
+console.log(myStack); 
