@@ -9,7 +9,7 @@ function ArithGeo(arr) {
       }
   }
   if (arithFlag) {
-    return "Arithmatic"; 
+    return "Arithmetic"; 
   }
 
   else {
