@@ -27,3 +27,42 @@ function twoSum(arr, S) {
 return sums; 
 
 } 
+
+
+// 2 pass hashmap approach
+// using a hashmap to input the numbers array
+// the hashmap will contain the number as a key, and the index as the hashmap value 
+// this way instead of looping within a loop
+// we can sort through the hashmap and check for the complement
+
+function twoSum(nums, target) {
+    
+    // in js, hashmap is an object where it can store key value pairs 
+    
+    // the number will be stored as a key
+    // and the indices will be stored as the value 
+    const hashMap= {}
+    for (let i = 0; i < nums.length; i++) {
+        
+        // this will assign the numbers to the keys 
+        // key of 2, will have a index value of 0 
+        hashMap[nums[i]] = i; 
+    }
+    
+    // console.log(hashMap) will show: 
+    // { '2':0, '7':1, '11':2, '15':3 } 
+    // key of 2, index 0 
+    // key of 7, index 1 
+    
+    for (let i = 0; i < nums.length; i++) {
+        let complement = target - nums[i]; 
+        if(hashMap[complement] && hashMap[complement] !== i) {
+            return [i, hashMap[complement]]; 
+        }
+        
+    }
+}
+
+const nums1 = [2, 7, 11, 15]; 
+
+console.log(twoSum(nums1, 9)); 
