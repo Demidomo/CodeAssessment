@@ -6,6 +6,33 @@
 // going through each index of the array 
 // comparing 2 items by looping through the array with the sum 
 
+
+
+// leetcode submission: 1/300
+
+var twoSum = function(nums, target) {
+    
+    // hashmap out 
+    let map = {};
+    
+    // going through the numbers 
+    for (let i = 0; i < nums.length; i++) {
+        
+        // if the difference between target and each number in the array is in the map 
+        // return that pair of number that met the above requirement
+        if (target - nums[i] in map) {
+                return [map[target-nums[i]], i];
+            
+            // otherwise keep going and just to be sure not to repeat
+            // move on 
+    
+            } else {
+                map[nums[i]] = i;
+            
+        }
+    }
+}
+
 function twoSum(arr, S) { 
     
     // all the qualifying items will go to this array 
