@@ -1,4 +1,7 @@
-
+//
+// The reason why we use hashmap
+// is not only to optimized big O 
+// but also so we don't repeat each index/value more than once 
 // brute force method 
 // going through each index of the array 
 // comparing 2 items by looping through the array with the sum 
