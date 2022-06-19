@@ -17,6 +17,7 @@
 # 
 # Method 1: 
 # Applying hashtables 
+# 2/300
 
 
 class Solution(object):
