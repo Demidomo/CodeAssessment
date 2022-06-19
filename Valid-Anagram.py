@@ -1,3 +1,5 @@
+# Hashmap approach
+
 class Solution(object):
     def isAnagram(self, s, t):
         if len(s) != len(t): 
@@ -13,3 +15,23 @@ class Solution(object):
                 return False                        # if they are not the same, we know it's false
             
         return True                                 # if both negates and null, it will be true
+
+
+
+# no hashmap approach
+
+
+
+class Solution(object):
+    def isAnagram(self, s, t):
+        """
+        :type s: str
+        :type t: str
+        :rtype: bool
+        """
+        if len(s) != len(t):
+            return False
+        elif sorted(s) == sorted(t):
+            return True
+        else:
+            return False
