@@ -1,5 +1,20 @@
 Road to 300: 8/300 leetcode problem sets understood and completed (as of June 20th, 2022) 
 
+
+
+
+**My progress: 
+**
+
+[Leetcode profile ](https://leetcode.com/Space_Garten/)
+
+[MIT Opencourse - Computer science](https://www.youtube.com/c/mitocw/playlists)
+
+[Resources mastersheet](https://docs.google.com/spreadsheets/d/1rkyPHSY7JR-6g4Zr6ysrPhCjrfcr0cdYkoSWJMglXPo/edit#gid=0)
+
+[Github progress entry](https://github.com/SpaceGarten/300)
+
+
 Code Assessment Topics: 
 
 Data structure
@@ -41,15 +56,3 @@ Other Concepts
 
 
 
-
-
-**My progress: 
-**
-
-[Leetcode profile ](https://leetcode.com/Space_Garten/)
-
-[MIT Opencourse - Computer science](https://www.youtube.com/c/mitocw/playlists)
-
-[Resources mastersheet](https://docs.google.com/spreadsheets/d/1rkyPHSY7JR-6g4Zr6ysrPhCjrfcr0cdYkoSWJMglXPo/edit#gid=0)
-
-[Github progress entry](https://github.com/SpaceGarten/300)
