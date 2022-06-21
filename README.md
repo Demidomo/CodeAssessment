@@ -11,16 +11,12 @@ Code Assessment Topics:
 6. Hash tables (love it) 
 
 
-
-
-
 & Algorithms
 1. Breadth first search
 2. Depth first search
 3. binary search
 4. merge sort 
 5. quick sort 
-
 
 
 Concepts 
@@ -31,7 +27,11 @@ Concepts
 5. big o space and time 
 
 
-My progress: 
+
+
+
+**My progress: 
+**
 
 leetcode.com/Space_Garten/ 
 
