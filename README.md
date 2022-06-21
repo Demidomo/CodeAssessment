@@ -1,4 +1,4 @@
-Road to 300: 8/300 leetcode problem sets completed (as of June 20th, 2022) 
+Road to 300: 8/300 leetcode problem sets understood and completed (as of June 20th, 2022) 
 
 Code Assessment Topics: 
 
