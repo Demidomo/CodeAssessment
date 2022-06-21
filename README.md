@@ -31,6 +31,8 @@ Concepts
 5. big o space and time 
 
 
-leetcode.com/Space_Garten/
-[MIT Opencourse - Computer science:](https://www.youtube.com/c/mitocw/playlists)
-[Resources mastersheet:](https://docs.google.com/spreadsheets/d/1rkyPHSY7JR-6g4Zr6ysrPhCjrfcr0cdYkoSWJMglXPo/edit#gid=0)
+leetcode.com/Space_Garten/ 
+
+[MIT Opencourse - Computer science](https://www.youtube.com/c/mitocw/playlists)
+
+[Resources mastersheet](https://docs.google.com/spreadsheets/d/1rkyPHSY7JR-6g4Zr6ysrPhCjrfcr0cdYkoSWJMglXPo/edit#gid=0)
