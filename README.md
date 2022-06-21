@@ -31,6 +31,8 @@ Concepts
 5. big o space and time 
 
 
+My progress: 
+
 leetcode.com/Space_Garten/ 
 
 [MIT Opencourse - Computer science](https://www.youtube.com/c/mitocw/playlists)
