@@ -33,7 +33,7 @@ Other Concepts
 **My progress: 
 **
 
-leetcode.com/Space_Garten/ 
+[Leetcode profile ](https://leetcode.com/Space_Garten/)
 
 [MIT Opencourse - Computer science](https://www.youtube.com/c/mitocw/playlists)
 
