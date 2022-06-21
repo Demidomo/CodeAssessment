@@ -1,3 +1,5 @@
+Road to 300: 8/300 leetcode problem sets completed (as of today) 
+
 Code Assessment Topics: 
 
 - Data structure 
